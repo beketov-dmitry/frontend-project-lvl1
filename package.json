@@ -14,10 +14,13 @@
   "author": "",
   "license": "ISC",
   "bin": {
-	  "brain-games": "bin/brain-games.js"
+    "brain-games": "bin/brain-games.js"
   },
   "bugs": {
     "url": "https://github.com/beketov-dmitry/frontend-project-lvl1/issues"
   },
-  "homepage": "https://github.com/beketov-dmitry/frontend-project-lvl1#readme"
+  "homepage": "https://github.com/beketov-dmitry/frontend-project-lvl1#readme",
+  "devDependencies": {
+    "readline-sync": "^1.4.10"
+  }
 }

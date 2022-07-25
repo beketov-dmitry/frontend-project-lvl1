@@ -12,3 +12,5 @@ publish:
 	npm publish --dry-run
 lint:
 	npx eslint
+brain-progression:
+	node bin/brain-progression

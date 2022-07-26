@@ -27,7 +27,7 @@ function brainProgression() {
   res[answer] = '..';
   return {
     question: res.join(' '),
-    answer: res1,
+    answer: `${res1}`,
   };
 }
 

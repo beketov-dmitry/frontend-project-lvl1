@@ -13,7 +13,7 @@ function brainNod() {
   numb1 += numb2;
   return {
     question,
-    answer: numb1,
+    answer: `${numb1}`,
   };
 }
 

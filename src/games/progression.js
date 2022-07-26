@@ -33,4 +33,4 @@ function resProg() {
     let name = askName();
     commonLogic(brainProgression, name);
 }
-export default resProg();
+export default resProg;

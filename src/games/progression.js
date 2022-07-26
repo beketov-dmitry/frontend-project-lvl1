@@ -25,7 +25,7 @@ function brainProgression(){
   let answer = Math.round(Math.random()*n);
   let res1 = res[answer];
   res[answer] = '..';
-  return {"question": res.join(", "),
+  return {"question": res.join(" "),
   "answer": res1};
 }
 

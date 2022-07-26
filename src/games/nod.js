@@ -15,7 +15,7 @@ function brainNod(){
     "answer": numb1};
 }
 
-function resNod() {
+function resNod()
     let name = askName();
     commonLogic(brainNod, name);
 }

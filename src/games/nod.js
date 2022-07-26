@@ -9,7 +9,13 @@ function brainNod() {
   let numb1 = randNumber();
   let numb2 = randNumber();
   const question = `${numb1} ${numb2}`;
-  while (numb1 && numb2) { numb1 > numb2 ? numb1 %= numb2 : numb2 %= numb1; }
+  while (numb1 && numb2) {
+    if (numb1 > numb2) {
+      numb1 %= numb2;
+    } else {
+      numb2 %= numb1;
+    }
+  }
   numb1 += numb2;
   return {
     question,

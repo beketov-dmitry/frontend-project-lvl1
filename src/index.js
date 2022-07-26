@@ -6,9 +6,9 @@ function commonLogic(functionGame, name) {
     const tempTask = functionGame();
     console.log(`Question: ${tempTask.question}`);
     const answer = readlineSync.question('Your answer: ');
-    if (tempTask.answer == answer) {
+    if (tempTask.answer === answer) {
       console.log('Correct!');
-      count++;
+      count += 1;
     } else {
       console.log(`'${answer}' is wrong answer ;(. Correct answer was ${tempTask.answer}`);
       console.log(`Let's try again, ${name}!`);

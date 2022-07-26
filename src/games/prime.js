@@ -8,9 +8,9 @@ function randNumber() {
 function brainSimple() {
   const numb1 = randNumber();
   let count = 0;
-  for (let i = 0; i <= Math.sqrt(numb1); i++) {
+  for (let i = 0; i <= Math.sqrt(numb1); i += 1) {
     if (numb1 % i === 0) {
-      count++;
+      count += 1;
     }
   }
   return {

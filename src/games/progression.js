@@ -18,7 +18,7 @@ function brainProgression() {
   const n = countOfProgression();
   const res = [];
   let first = randNumber();
-  for (let i = 0; i <= n; i++) {
+  for (let i = 0; i <= n; i += 1) {
     res.push(first);
     first += diff;
   }

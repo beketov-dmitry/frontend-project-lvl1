@@ -15,11 +15,11 @@ function brainCalc() {
   const sign = randSign();
   let answer = 0;
   switch (sign) {
-    case '+': answer = numb1 + numb2;
+    case '+': answer = `${numb1 + numb2}`;
       break;
-    case '-': answer = numb1 - numb2;
+    case '-': answer = `${numb1 - numb2}`;
       break;
-    case '*': answer = numb1 * numb2;
+    case '*': answer = `${numb1 * numb2}`;
       break;
     default:
       break;
